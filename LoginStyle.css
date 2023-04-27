@@ -1,0 +1,80 @@
+.parent {
+display: flex;
+height: 100vh;
+margin: 0px;
+/*background: linear-gradient(200deg, black,rgb(29, 148, 39),rgb(29, 148, 39), rgb(5, 97, 40), rgb(5, 97, 40), rgb(29, 148, 39),rgb(29, 148, 39),black);*/
+background-image: url("https://ashgar.com/wp-content/uploads/2019/08/Horus-1024x576.jpg");
+background-size: cover;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.login-box {
+font-size: 2em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+border: 3px solid rgb(70, 69, 69);
+/*background-color: rgb(44, 44, 44);*/
+background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");
+opacity: 96%;
+width: 500px;
+height: 500px;
+border-radius: 100px;
+}
+
+.login-form{
+    padding: 0px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+input[type=text],  input[type=password]{
+    width: 215px;
+    height: 15px;
+}
+
+.login-item{
+    line-height: 0.5em;
+    margin: 10px;
+    animation-name: flicker-text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition-property: color;
+    transition-duration: 1ms;
+    transition-delay: 1ms;
+}
+
+.submit-button {
+    text-align: center;
+    border: 1px solid rgb(70, 69, 69);
+    height: 20px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 0px;
+    background-color: rgb(20, 168, 27);
+}
+
+.submit-button:hover {
+    background-color: rgb(58, 214, 27);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: black;
+    font-family: monospace;
+}
+
+h1 h3 {margin: 0px;}
