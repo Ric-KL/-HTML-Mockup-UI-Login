@@ -2,7 +2,7 @@
 display: flex;
 height: 100vh;
 margin: 0px;
-background-image: url("https://ashgar.com/wp-content/uploads/2019/08/Horus-1024x576.jpg");
+background: linear-gradient(black, #009c4d,black);
 background-size: cover;
 flex-direction: row;
 justify-content: center;
@@ -19,23 +19,11 @@ justify-content: center;
 align-items: center;
 color: white;
 border: 3px solid rgb(70, 69, 69);
-background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");
-animation-name: glitch;
-animation-duration: 8s;
-animation-iteration-count: infinite;
-animation-timing-function: step-end;
-opacity: 96%;
+background-color: #2a2b2a;
 width: 500px;
 height: 500px;
 border-radius: 100px;
 box-shadow: 10px 10px 10px rgb(19, 19, 19);
-}
-
-@keyframes glitch {
-    0% {background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");}
-    33% {background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1101232120153780284/MOSHED-2023-4-27-12-28-44.gif");}
-    66% {background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");}
-    100% {background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");}
 }
 
 .login-form{
