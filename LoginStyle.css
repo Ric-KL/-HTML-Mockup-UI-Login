@@ -19,6 +19,7 @@ justify-content: center;
 align-items: center;
 color: white;
 border: 3px solid rgb(70, 69, 69);
+background-color: #2a2b2a; /*in-line backup for the below image*/
 background-image: url("https://cdn.discordapp.com/attachments/892914095559417887/1098431579744894976/horuslogo.png");
 animation-name: glitch;
 animation-duration: 8s;
@@ -78,7 +79,7 @@ input[type=text],  input[type=password]{
 body {
     padding: 0px;
     margin: 0px;
-    background: black;
+    background: linear-gradient(black, #009c4d,black); /*back-up for the main background image*/
     font-family: monospace;
 }
 
